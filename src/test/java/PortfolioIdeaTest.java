@@ -26,9 +26,10 @@ public class PortfolioIdeaTest {
         String ideaTitle = "Test Idea";
         String description = "This is a test idea";
         List<String> photoUrls = Arrays.asList("url1", "url2");
+        String p_i = "p";
 
         // Act
-        PortfolioIdea portfolioIdea = new PortfolioIdea(username, ideaTitle, description, photoUrls);
+        PortfolioIdea portfolioIdea = new PortfolioIdea(username, ideaTitle, description, photoUrls,p_i);
 
         // Assert
         assertNotNull(portfolioIdea);
